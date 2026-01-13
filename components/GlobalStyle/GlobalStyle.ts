@@ -1,9 +1,12 @@
 import {
+  accentHover,
   black,
   blackOpacity25,
   blackOpacity50,
   blackOpacity60,
   blackOpacity75,
+  blue,
+  borderLight,
   desktopBannerHeight,
   desktopHeaderHeight,
   desktopPageWidth,
@@ -32,12 +35,15 @@ import {
   shadow3,
   tabletAndUnder,
   textFine,
+  textInverse,
   textLg,
   textMd,
   textSm,
+  textTertiary,
   textXs,
   white,
   whiteOpacity10,
+  yellow500,
 } from "constant";
 import { createGlobalStyle } from "styled-components";
 
@@ -97,6 +103,9 @@ body {
   min-block-size: 100%;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter#example_2 */
   /* scrollbar-gutter: stable both-edges; Removed until this bug is fixed: https://bugs.chromium.org/p/chromium/issues/detail?id=1318404#c2 */
+  /* Set default text color for dark theme */
+  color: var(--white);
+  background-color: var(--black);
 }
 
 /* Improve media defaults */
@@ -229,6 +238,13 @@ a:not([class]) {
     --grey-800: ${grey800};
     --loading-skeleton-opacity-100: ${loadingSkeletonOpacity100};
     --loading-skeleton-opacity-10: ${loadingSkeletonOpacity10};
+    /* New theme colors */
+    --text-inverse: ${textInverse};
+    --text-tertiary: ${textTertiary};
+    --accent-hover: ${accentHover};
+    --blue: ${blue};
+    --yellow: ${yellow500};
+    --border-light: ${borderLight};
     /* Fonts */
     --header-xl: ${headerXl};
     --header-lg: ${headerLg};

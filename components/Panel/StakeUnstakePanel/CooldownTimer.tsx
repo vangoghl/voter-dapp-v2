@@ -63,12 +63,12 @@ const Wrapper = styled.div`
   padding-left: 15px;
   padding-right: 20px;
   border-radius: 5px;
-  background: var(--white);
+  background: var(--grey-500);
   font: var(--text-md);
 `;
 
 const AmountDescriptionWrapper = styled.span`
-  color: var(--black);
+  color: var(--white);
 `;
 
 const Amount = styled.span``;

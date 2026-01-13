@@ -1,4 +1,4 @@
-import { red100, red500, red600, white } from "constant";
+import { black, red100, red500, red600, white } from "constant";
 import { isExternalLink } from "helpers";
 import NextLink from "next/link";
 import { ReactNode } from "react";
@@ -78,7 +78,7 @@ export function Button({
     primary: {
       "--display": "grid",
       "--place-items": "center",
-      "--color": white,
+      "--color": black,
       "--background-color": red500,
       "--hover-background-color": red600,
       "--width": width,
@@ -89,8 +89,8 @@ export function Button({
     secondary: {
       "--display": "grid",
       "--place-items": "center",
-      "--color": red500,
-      "--background-color": white,
+      "--color": white,
+      "--background-color": "transparent",
       "--hover-background-color": red100,
       "--width": width,
       "--height": height,

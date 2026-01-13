@@ -98,7 +98,7 @@ const ToggleButton = styled(MenuButton)`
   padding-inline: 15px;
   font: var(--text-md);
   color: var(--color);
-  background-color: var(--white);
+  background-color: var(--grey-100);
   border: 1.18px solid var(--border-color);
   border-radius: 5px;
   &[aria-disabled="true"] {
@@ -110,7 +110,7 @@ const ToggleButton = styled(MenuButton)`
 
 const DropdownList = styled(MenuPopover)`
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--grey-100);
   border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 0;
@@ -126,16 +126,16 @@ const DropdownItem = styled(MenuItem)<{ $isSelected: boolean }>`
   justify-content: space-between;
   padding-inline: 15px;
   font: var(--text-md);
-  color: var(--black);
+  color: var(--white);
   border-radius: 5px;
   background-color: ${({ $isSelected }) =>
-    $isSelected ? "var(--grey-50)" : "var(--white)"};
+    $isSelected ? "var(--grey-500)" : "var(--grey-100)"};
   &:hover {
-    background-color: var(--grey-50);
+    background-color: var(--grey-500);
     color: currentColor;
   }
   &:not(:last-child) {
-    border-bottom: 1px solid var(--grey-50);
+    border-bottom: 1px solid var(--grey-500);
   }
 `;
 

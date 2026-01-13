@@ -2,7 +2,7 @@ import { tabletAndUnder } from "constant";
 import styled from "styled-components";
 
 export const PageOuterWrapper = styled.div`
-  background: var(--grey-100);
+  background: var(--black);
   min-height: var(--full-height);
 `;
 

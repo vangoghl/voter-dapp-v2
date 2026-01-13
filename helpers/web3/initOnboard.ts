@@ -32,4 +32,12 @@ export const initOnboard = init({
     desktop: { enabled: false },
     mobile: { enabled: false },
   },
+  theme: {
+    "--w3o-background-color": "#1e1e1e",
+    "--w3o-foreground-color": "#2a2a2a",
+    "--w3o-text-color": "#ffffff",
+    "--w3o-border-color": "#404040",
+    "--w3o-action-color": "#ffd608",
+    "--w3o-border-radius": "12px",
+  },
 });

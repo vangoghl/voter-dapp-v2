@@ -75,7 +75,7 @@ const _Wrapper = styled(Wrapper)`
 
 const _Input = styled(Input)`
   padding-left: 15px;
-  color: var(--black);
+  color: var(--white);
 `;
 
 const ClearInputButton = styled.button`
@@ -87,7 +87,7 @@ const ClearInputButton = styled.button`
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background: var(--grey-100);
+  background: var(--grey-500);
   transition: opacity 0.2s;
 
   &:hover {

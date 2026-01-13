@@ -65,10 +65,10 @@ const Label = styled.h1`
 
 const Content = styled.p`
   font: var(--text-md);
-  color: var(--black-opacity-60);
+  color: var(--grey-800);
 
   strong {
-    color: var(--black);
+    color: var(--white);
   }
 
   @media ${tabletAndUnder} {

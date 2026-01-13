@@ -174,7 +174,9 @@ const MobileNotificationText = styled(NotificationText)`
   }
 `;
 
-const OuterWrapper = styled.header``;
+const OuterWrapper = styled.header`
+  background: var(--black);
+`;
 
 const InnerWrapper = styled.div`
   max-width: var(--page-width);
@@ -221,7 +223,7 @@ const PageDescription = styled.p`
   font-weight: 300;
   font-size: 14.5946px;
   line-height: 20px;
-  color: var(--black);
+  color: var(--white);
 `;
 
 const LogoIcon = styled(Logo)``;

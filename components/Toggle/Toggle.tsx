@@ -45,7 +45,7 @@ const Switch = styled.div`
   transform: translateX(var(--translate-x));
   width: 27px;
   height: 27px;
-  background: var(--white);
+  background: var(--grey-100);
   border-radius: 16px;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.12);
   transition: transform 0.2s ease-in-out;

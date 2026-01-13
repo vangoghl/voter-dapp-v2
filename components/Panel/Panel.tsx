@@ -128,7 +128,7 @@ const Content = styled.div`
   position: fixed;
   top: 0;
   bottom: 0;
-  background: var(--white);
+  background: var(--grey-100);
   overflow-y: scroll;
   transition: transform 400ms;
   z-index: 1;

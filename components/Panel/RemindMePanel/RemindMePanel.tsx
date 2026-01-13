@@ -100,7 +100,7 @@ const SectionsWrapper = styled.div``;
 const SectionWrapper = styled.div`
   padding-inline: 20px;
   padding-block: 20px;
-  background: var(--grey-50);
+  background: var(--grey-500);
   border-radius: 5px;
 `;
 
@@ -138,7 +138,7 @@ const SuccessIconOuterWrapper = styled.div`
   margin-inline: auto;
   margin-bottom: 38px;
   border-radius: 50%;
-  background: var(--white);
+  background: var(--grey-500);
 `;
 
 const SuccessIcon = styled(Check)`

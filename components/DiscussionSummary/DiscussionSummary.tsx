@@ -194,7 +194,7 @@ export function DiscussionSummary({ query, bulletins }: Props) {
     return (
       <PanelContentWrapper>
         <div className="flex items-start justify-start">
-          <p className="text-lg text-black/70">Loading discussion summary...</p>
+          <p className="text-lg text-grey-800">Loading discussion summary...</p>
         </div>
       </PanelContentWrapper>
     );
@@ -205,7 +205,7 @@ export function DiscussionSummary({ query, bulletins }: Props) {
     return (
       <PanelContentWrapper>
         <div className="flex flex-col items-start justify-start">
-          <p className="text-lg text-black/70">
+          <p className="text-lg text-grey-800">
             Failed to load discussion summary. Please try again later.
           </p>
         </div>
@@ -218,7 +218,7 @@ export function DiscussionSummary({ query, bulletins }: Props) {
     return (
       <PanelContentWrapper>
         <div className="flex flex-col items-start justify-start">
-          <p className="text-lg text-black/70">
+          <p className="text-lg text-grey-800">
             AI summary is disabled for this market.
           </p>
         </div>
@@ -236,11 +236,11 @@ export function DiscussionSummary({ query, bulletins }: Props) {
         <div className="flex flex-col items-start justify-start">
           <div className="mb-3 flex items-center gap-2">
             <div className="h-4 w-4 animate-spin rounded-full border-2 border-[#17b38c] border-t-transparent" />
-            <p className="text-lg font-medium text-black/70">
+            <p className="text-lg font-medium text-grey-800">
               Generating AI summary...
             </p>
           </div>
-          <p className="text-base text-black/50">
+          <p className="text-base text-grey-800">
             This appears to be an older vote or one were there is not yet a
             summary. We&apos;re generating a fresh summary of the discussion for
             you. This typically takes 10-30 seconds but can take longer for
@@ -304,7 +304,7 @@ export function DiscussionSummary({ query, bulletins }: Props) {
                   </OutcomeTitle>
 
                   {outcomeData?.summary ? (
-                    <div className="text-base leading-relaxed text-black">
+                    <div className="text-base leading-relaxed text-white">
                       {processSummaryText(outcomeData.summary)}
                     </div>
                   ) : (

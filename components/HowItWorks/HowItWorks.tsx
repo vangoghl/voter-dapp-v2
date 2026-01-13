@@ -187,7 +187,7 @@ export function HowItWorks() {
 }
 
 const OuterWrapper = styled.section`
-  background: var(--white);
+  background: var(--grey-50);
 `;
 
 const InnerWrapper = styled.div`
@@ -207,6 +207,7 @@ const Title = styled.h1`
   padding-inline: 5px;
   font: var(--header-md);
   margin-bottom: 20px;
+  color: var(--white);
 `;
 
 const Strong = styled.strong`

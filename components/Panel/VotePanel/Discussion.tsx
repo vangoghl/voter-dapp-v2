@@ -153,7 +153,7 @@ export function Discussion({ discussion, loading, error, bulletins }: Props) {
       </TitleSectionWrapper>
       {loading ? (
         <LoadingSpinnerWrapper>
-          <LoadingSpinner size={40} variant="black" />
+          <LoadingSpinner size={40} variant="white" />
         </LoadingSpinnerWrapper>
       ) : (
         <>

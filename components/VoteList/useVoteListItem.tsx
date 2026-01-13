@@ -312,7 +312,7 @@ export function useVoteListItem({
     if (phase === "commit") {
       return commitHash ? (
         <Link
-          className="underline hover:text-black-opacity-50"
+          className="underline hover:text-grey-800"
           href={config.makeTransactionHashLink(commitHash)}
           target="_blank"
         >
@@ -325,7 +325,7 @@ export function useVoteListItem({
     return revealHash ? (
       <Link
         href={config.makeTransactionHashLink(revealHash)}
-        className="underline hover:text-black-opacity-50"
+        className="underline hover:text-grey-800"
         target="_blank"
       >
         {getCommittedOrRevealed()}

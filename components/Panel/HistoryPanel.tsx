@@ -180,8 +180,8 @@ const AprDetailsWrapper = styled.div`
   place-items: center;
   padding-block: 10px;
   padding-inline: 15px;
-  background: var(--white);
-  color: var(--black);
+  background: var(--grey-100);
+  color: var(--white);
   border-radius: 5px;
 `;
 
@@ -212,7 +212,7 @@ const LoadingWrapper = styled.div`
 
 const LoadingText = styled.p`
   font: var(--text-sm);
-  color: var(--grey-800);
+  color: var(--white);
 `;
 
 const Link = styled(NextLink)`

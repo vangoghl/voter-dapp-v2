@@ -41,7 +41,7 @@ export function UpcomingVotes() {
         <PageInnerWrapper>
           {isLoading ? (
             <LoadingSpinnerWrapper>
-              <LoadingSpinner size={40} variant="black" />
+              <LoadingSpinner size={40} variant="white" />
               <LoadingText>Loading upcoming votes...</LoadingText>
             </LoadingSpinnerWrapper>
           ) : (
@@ -103,6 +103,6 @@ const NoVotesMessage = styled.h1`
 const LoadingText = styled.div`
   margin-top: 20px;
   font: var(--text-md);
-  color: var(--grey-800);
+  color: var(--white);
   text-align: center;
 `;

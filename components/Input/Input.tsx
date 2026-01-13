@@ -9,15 +9,16 @@ export const Wrapper = styled.div`
 export const Input = styled.input`
   width: 100%;
   height: 45px;
-  border: 1px solid var(--black);
+  border: 1px solid var(--grey-500);
   border-radius: 5px;
-  color: var(--black-opacity-50);
+  color: var(--white);
+  background: var(--grey-100);
 
   :disabled {
     cursor: not-allowed;
   }
 
   ::placeholder {
-    color: var(--black-opacity-50);
+    color: var(--grey-800);
   }
 `;

@@ -69,20 +69,20 @@ const NavItem = styled.li``;
 
 const Link = styled(NextLink)`
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-inline: 30px;
-  background: var(--white);
+  background: var(--grey-100);
   border-left: 3px solid var(--border-left-color);
-  border-bottom: 1px solid var(--grey-50);
+  border-bottom: 1px solid var(--grey-500);
   font: var(--text-md);
   cursor: pointer;
 
   &:hover {
-    background: var(--grey-50);
+    background: var(--grey-500);
   }
 
   transition: background 0.2s ease-in-out;

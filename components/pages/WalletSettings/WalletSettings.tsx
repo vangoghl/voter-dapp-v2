@@ -19,7 +19,7 @@ export function WalletSettings() {
         <PageInnerWrapper>
           {delegationDataLoading ? (
             <LoadingSpinnerWrapper>
-              <LoadingSpinner variant="black" size={40} />
+              <LoadingSpinner variant="white" size={40} />
             </LoadingSpinnerWrapper>
           ) : (
             <Wallets />

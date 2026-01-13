@@ -49,7 +49,7 @@ const TabsList = styled(List)`
   align-items: center;
   gap: 50px;
   padding-left: 30px;
-  background: var(--grey-50);
+  background: var(--grey-500);
   overflow-x: auto;
 
   @media ${mobileAndUnder} {
@@ -68,6 +68,7 @@ const TabsTrigger = styled(Trigger)`
   padding-bottom: 3px;
   background: transparent;
   font: var(--text-md);
+  color: var(--white);
   white-space: nowrap;
   flex-shrink: 0;
 
@@ -90,7 +91,7 @@ const TabsTrigger = styled(Trigger)`
 
 const TabsContent = styled(Content)`
   background: transparent;
-  color: var(--black);
+  color: var(--white);
   font: var(--text-md);
   cursor: unset;
 `;

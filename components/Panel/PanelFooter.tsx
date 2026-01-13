@@ -2,7 +2,7 @@ import NextLink from "next/link";
 import Discord from "public/assets/icons/discord.svg";
 import Discourse from "public/assets/icons/discourse.svg";
 import Github from "public/assets/icons/github.svg";
-import Logo from "public/assets/icons/logo.svg";
+import Logo from "public/assets/logo.svg";
 import Medium from "public/assets/icons/medium.svg";
 import Twitter from "public/assets/icons/twitter.svg";
 import styled from "styled-components";
@@ -79,6 +79,14 @@ const Link = styled(NextLink)``;
 const SocialIconWrapper = styled.div`
   width: 24px;
   height: 24px;
+  
+  svg {
+    fill: var(--white);
+    
+    path {
+      fill: var(--white);
+    }
+  }
 `;
 
 const PoweredByWrapper = styled.div`
@@ -102,5 +110,4 @@ const PoweredBy = styled(NextLink)`
 const UmaIconWrapper = styled.span`
   display: inline-block;
   width: 34px;
-  height: 8.69px;
 `;

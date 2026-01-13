@@ -62,7 +62,7 @@ export function VotePanelWithLazyLoad({ content }: Props) {
   if (needsDetailedData && isLoading) {
     return (
       <LoadingWrapper>
-        <LoadingSpinner size={40} variant="black" />
+        <LoadingSpinner size={40} variant="white" />
         <LoadingText>Loading vote details...</LoadingText>
       </LoadingWrapper>
     );
@@ -92,7 +92,7 @@ const LoadingWrapper = styled.div`
 
 const LoadingText = styled.div`
   font: var(--text-md);
-  color: var(--grey-800);
+  color: var(--white);
 `;
 
 const ErrorWrapper = styled.div`

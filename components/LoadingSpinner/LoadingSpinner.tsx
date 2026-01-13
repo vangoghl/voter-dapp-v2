@@ -1,10 +1,10 @@
-import { black, red500 } from "constant";
+import { red500, white } from "constant";
 import styled, { CSSProperties, keyframes } from "styled-components";
 
 interface Props {
   size?: number;
   thickness?: number;
-  variant?: "red" | "black";
+  variant?: "red" | "white";
 }
 export function LoadingSpinner({
   size = 200,
@@ -13,7 +13,7 @@ export function LoadingSpinner({
 }: Props) {
   const maskSize = size / 2 - thickness;
   const blockSize = thickness + 1;
-  const color = variant === "red" ? red500 : black;
+  const color = variant === "red" ? red500 : white;
 
   return (
     <Ring

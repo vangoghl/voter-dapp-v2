@@ -54,9 +54,9 @@ const LabelWrapper = styled.div`
 const TooltipContent = styled(AnimatedTooltipContent)`
   padding: 20px;
   font: var(--text-sm);
-  color: var(--black);
-  background: var(--white);
-  border: 1px solid var(--black);
+  color: var(--white);
+  background: var(--grey-100);
+  border: 1px solid var(--grey-500);
   border-radius: 5px;
   box-shadow: var(--shadow-3);
 `;

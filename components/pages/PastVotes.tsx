@@ -100,7 +100,7 @@ export function PastVotes() {
         <PageInnerWrapper>
           {isLoading ? (
             <LoadingSpinnerWrapper>
-              <LoadingSpinner size={40} variant="black" />
+              <LoadingSpinner size={40} variant="white" />
               <LoadingText>Loading past votes...</LoadingText>
             </LoadingSpinnerWrapper>
           ) : (
@@ -132,6 +132,6 @@ const PaginationWrapper = styled.div`
 const LoadingText = styled.div`
   margin-top: 20px;
   font: var(--text-md);
-  color: var(--grey-800);
+  color: var(--white);
   text-align: center;
 `;

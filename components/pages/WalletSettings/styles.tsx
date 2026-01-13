@@ -13,7 +13,7 @@ export const BarWrapper = styled.div`
   padding-inline: 25px;
   margin-top: 20px;
   margin-bottom: 40px;
-  background: var(--white);
+  background: var(--grey-100);
   border-radius: 5px;
 
   > :last-child {

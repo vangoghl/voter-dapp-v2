@@ -23,7 +23,7 @@ export function Notification({
   return (
     <Wrapper style={style}>
       <IndicatorWrapper>
-        {type === "pending" && <LoadingSpinner variant="black" size={32} />}
+        {type === "pending" && <LoadingSpinner variant="white" size={32} />}
         {type === "error" && (
           <IconWrapper>
             <Failure />
@@ -64,9 +64,9 @@ const Wrapper = styled.div`
   min-height: 90px;
   padding: 20px;
   font: var(--text-sm);
-  color: var(--black);
-  background: var(--white);
-  border: 1px solid var(--black);
+  color: var(--white);
+  background: var(--grey-100);
+  border: 1px solid var(--grey-500);
   border-radius: 5px;
   box-shadow: var(--shadow-3);
 `;

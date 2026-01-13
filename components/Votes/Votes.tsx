@@ -30,7 +30,7 @@ export function Votes() {
       {hasPastVotes && <PastVotes />}
       {!hasAnyVotes && (
         <LoadingSpinnerWrapper>
-          <LoadingSpinner size={40} variant="black" />
+          <LoadingSpinner size={40} variant="white" />
           {isLoading && <LoadingText>Loading votes...</LoadingText>}
         </LoadingSpinnerWrapper>
       )}
@@ -41,6 +41,6 @@ export function Votes() {
 const LoadingText = styled.div`
   margin-top: 20px;
   font: var(--text-md);
-  color: var(--grey-800);
+  color: var(--white);
   text-align: center;
 `;

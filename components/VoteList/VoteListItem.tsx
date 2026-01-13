@@ -61,7 +61,7 @@ export function VoteListItem(props: VoteListItemProps) {
   return (
     <div
       style={style}
-      className="flex h-auto w-full max-w-full flex-col items-start gap-[12px] rounded bg-white p-3"
+      className="flex h-auto w-full max-w-full flex-col items-start gap-[12px] rounded bg-grey-100 p-3"
     >
       <div className="w-full rounded-l">
         <div className="align-center flex border-b-[--border-color] pb-1">
@@ -86,7 +86,7 @@ export function VoteListItem(props: VoteListItemProps) {
                   </div>
                 </Tooltip>
               ) : null}
-              <h4 className="text-xs text-black-opacity-50">
+              <h4 className="text-xs text-grey-800">
                 {voteOrigin}{" "}
                 {!isV1 &&
                   resolvedPriceRequestIndex &&

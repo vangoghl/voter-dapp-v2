@@ -19,7 +19,7 @@ export function Checkbox({
   disabled,
   gap = 15,
 }: Props) {
-  const boxBackgroundColor = checked ? black : white;
+  const boxBackgroundColor = checked ? white : "transparent";
   return (
     <Label
       style={
@@ -54,7 +54,7 @@ const Label = styled.label`
   display: flex;
   align-items: center;
   gap: var(--gap);
-  color: var(--black);
+  color: var(--white);
   font: var(--text-xs);
 `;
 
@@ -64,7 +64,7 @@ const Box = styled(CustomCheckboxContainer)`
   display: inline-grid;
   place-items: center;
   background: var(--box-background-color);
-  border: 1px solid var(--black);
+  border: 1px solid var(--white);
   border-radius: 2px;
 
   transition: background 0.2s ease-in-out;

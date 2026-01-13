@@ -76,7 +76,7 @@ export function VoteTableRow(props: VoteListItemProps) {
 
   return (
     <tr
-      className="group min-h-[80px] cursor-pointer rounded bg-white"
+      className="group min-h-[80px] cursor-pointer rounded bg-grey-100"
       style={style}
       onClick={moreDetailsAction}
     >
@@ -114,7 +114,7 @@ export function VoteTableRow(props: VoteListItemProps) {
                   </div>
                 </Tooltip>
               ) : null}
-              <h4 className="text-xs text-black-opacity-50">
+              <h4 className="text-xs text-grey-800">
                 {voteOrigin}{" "}
                 {!isV1 &&
                   resolvedPriceRequestIndex &&

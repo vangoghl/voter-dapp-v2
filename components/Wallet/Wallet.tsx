@@ -110,18 +110,18 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   font: var(--text-md);
-  color: var(--black);
-  background-color: var(--grey-50);
+  color: var(--white);
+  background-color: var(--grey-500);
   border-radius: 5px;
 `;
 
 const WalletButtonWrapper = styled.div``;
 
 const WalletButtonPrimaryWrapper = styled(Wrapper)`
-  color: var(--white);
+  color: var(--black);
   background-color: var(--red-500);
   &:hover {
-    background-color: var(--red-600);
+    background-color: var(--accent-hover);
   }
 `;
 
