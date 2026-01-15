@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   compiler: { styledComponents: true },
+  experimental: {
+    workerThreads: false,
+    cpus: 1
+  },
   eslint: {
     dirs: [
       "components",
