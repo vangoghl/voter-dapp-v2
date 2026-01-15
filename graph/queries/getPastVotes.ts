@@ -6,14 +6,14 @@ import { fetchAllDocuments } from "helpers/util/fetchAllDocuments";
 import { resolveAncillaryDataForRequests } from "helpers/voting/resolveAncillaryData";
 import { PastVotesQuery, RevealedVotesByAddress } from "types";
 
-const { chainId, graphEndpoint } = config;
+const { graphEndpoint } = config;
 
-export async function getPastVotesV1() {
+export function getPastVotesV1() {
   // const result =
   //   chainId === 1
   //     ? ((await import("data/pastVotesV1.json")).default as PastVotesQuery)
   //     : { priceRequests: [] };
-  const result = {  priceRequests: [] } as PastVotesQuery;
+  const result = { priceRequests: [] } as PastVotesQuery;
   return result?.priceRequests?.map(
     ({
       identifier: { id },

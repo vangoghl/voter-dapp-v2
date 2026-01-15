@@ -79,10 +79,10 @@ const Link = styled(NextLink)``;
 const SocialIconWrapper = styled.div`
   width: 24px;
   height: 24px;
-  
+
   svg {
     fill: var(--white);
-    
+
     path {
       fill: var(--white);
     }
