@@ -9,10 +9,11 @@ import { PastVotesQuery, RevealedVotesByAddress } from "types";
 const { chainId, graphEndpoint } = config;
 
 export async function getPastVotesV1() {
-  const result =
-    chainId === 1
-      ? ((await import("data/pastVotesV1.json")).default as PastVotesQuery)
-      : { priceRequests: [] };
+  // const result =
+  //   chainId === 1
+  //     ? ((await import("data/pastVotesV1.json")).default as PastVotesQuery)
+  //     : { priceRequests: [] };
+  const result = {  priceRequests: [] } as PastVotesQuery;
   return result?.priceRequests?.map(
     ({
       identifier: { id },
