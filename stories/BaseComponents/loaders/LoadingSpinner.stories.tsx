@@ -12,9 +12,9 @@ const Template: ComponentStory<typeof LoadingSpinner> = (args) => (
 
 export const Default = Template.bind({});
 
-export const BlackVariant = Template.bind({});
-BlackVariant.args = {
-  variant: "black",
+export const RedVariant = Template.bind({});
+RedVariant.args = {
+  variant: "red",
 };
 
 export const CustomSize = Template.bind({});
