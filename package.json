@@ -2,6 +2,7 @@
   "name": "uma-v2-dapp",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -118,6 +119,5 @@
     "webpack": "^5.74.0"
   },
   "readme": "ERROR: No README data found!",
-  "packageManager": "yarn@4.5.0",
   "_id": "uma-v2-dapp@0.1.0"
 }
